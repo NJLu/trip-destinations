@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000'});
+const API = axios.create({ baseURL: 'https://trip-destinations.onrender.com'});
 
 // Check the user's token by intercepting the request before passing the request to the api calls
 API.interceptors.request.use((req) => {
